@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <!-- Remote repositories definition -->
+  <remote name="org" fetch="http://gitlab.cloud.hdu.edu.cn/rd-framework"/>
+  <remote name="github" fetch="https://github.com"/>
+
+  <!-- Other community repositories -->
+  <project name="tensorflow/tensorflow" revision="refs/tags/v2.9.1" remote="github" path="tensorflow"/>
+  <project name="placement" revision="refs/heads/main" remote="org" path="tensorflow/tensorflow/core/ir/placement"/>
+</manifest>
